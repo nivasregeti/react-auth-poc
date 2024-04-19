@@ -1,0 +1,28 @@
+.logout {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.logout:hover {
+  background: #edf2f9;
+}
+.logout:focus {
+  background: #00a2e3;
+}
+.logout .logout-tooltip {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 5px;
+  left: 105%;
+  position: absolute;
+  z-index: 1;
+}
+.logout:hover .logout-tooltip {
+  visibility: visible;
+}
